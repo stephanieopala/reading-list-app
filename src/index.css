@@ -5,9 +5,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#0D2770, #2b4da8);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.header {
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.header h1 {
+  margin: 0;
+}
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+input[type = text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px 0px;
+  border: none;
+}
+input[type = submit] {
+  width: 120px;
+  padding: 10px 0;
+  background-color: #102d7c;
+  color: white;
+  border: 1px solid #102d7c;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+input[type = submit]:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.book-list {
+  margin: 30px 0;
+
+}
+.book-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #092675;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+}
+.title, .author {
+  margin: 0;
+}
+.delete-btn {
+  padding: 0px 16px;
+  color: #092675;
+  background-color: white;
+  border: none;
 }
