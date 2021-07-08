@@ -2,13 +2,13 @@
 ![Reading List App](./public/Capture.PNG)
 
 ## Technologies used
-Built with React Hooks, Context API, CSS
+Built with React Hooks, Context API, Local Storage, CSS
 
 ## Use case
 A user is able to:
 - Add title and author of a book.
 - Delete books.
-- See the number of books in the list
+- See the number of books in the list.
 
 # Getting Started with Create React App
 
