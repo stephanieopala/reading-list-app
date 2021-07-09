@@ -2,14 +2,17 @@ import BookForm from './components/BookForm';
 import BookList from './components/BookList';
 import Header from './components/Header';
 import BookContextProvider from './context/BookContext';
+import ThemeContextProvider from "./context/ThemeContext";
 
 function App() {
   return (
     <div className="App">
       <BookContextProvider>
-        <Header />
-        <BookList />
-        <BookForm />
+        <ThemeContextProvider>
+          <Header />
+          <BookList />
+          <BookForm />
+        </ThemeContextProvider>
       </BookContextProvider>  
     </div>
   );
