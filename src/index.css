@@ -18,6 +18,7 @@ body {
   box-sizing: border-box;
 }
 .header {
+  color: white;
   text-align: center;
   padding: 10px 0;
 }
@@ -42,6 +43,8 @@ input[type = text] {
 input[type = submit] {
   width: 120px;
   padding: 10px 0;
+  background-color: #102d7c;
+  color: white;
   border: 1px solid #102d7c;
   font-size: 18px;
   transition: all 0.3s;
@@ -60,6 +63,8 @@ input[type = submit]:hover {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  color: white;
+  background-color: #092675;
   margin-bottom: 20px;
   padding: 10px 0px;
 }
@@ -68,5 +73,7 @@ input[type = submit]:hover {
 }
 .delete-btn {
   padding: 0px 16px;
+  color: #092675;
+  background-color: white;
   border: none;
 }
