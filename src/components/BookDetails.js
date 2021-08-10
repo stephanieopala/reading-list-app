@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {BookContext} from "../context/BookContext";
 
 const BookDetails = ({book}) => {
-    const {removeBook} = useContext(BookContext);
+    const {dispatch} = useContext(BookContext);
 
     return (
         <div className="book-details">
@@ -10,7 +10,7 @@ const BookDetails = ({book}) => {
                 <h3 className="title">TITLE: {book.title}</h3>
                 <p className="author">AUTHOR: {book.author}</p>
             </div>
-             <button className="delete-btn" onClick={() => removeBook(book.id)}>Delete</button> 
+             <button className="delete-btn" onClick={() => dispatch({type: "REMOVE_BOOK", id: book.id})}>Delete</button> 
         </div>
     )
 }
