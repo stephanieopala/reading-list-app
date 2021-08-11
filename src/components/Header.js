@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="header" >
             <h1 >My Reading List</h1>
-            <p>You have {books.length} books to get through</p>
+            <p>You have <span>{books.length}</span> books to get through</p>
         </div>
     )
 }

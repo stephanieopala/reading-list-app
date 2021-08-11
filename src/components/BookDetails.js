@@ -10,7 +10,7 @@ const BookDetails = ({book}) => {
                 <h3 className="title">TITLE: {book.title}</h3>
                 <p className="author">AUTHOR: {book.author}</p>
             </div>
-             <button className="delete-btn" onClick={() => dispatch({type: "REMOVE_BOOK", id: book.id})}>Delete</button> 
+            <img src="../delete-bin.png" className="delete-btn" onClick={() => dispatch({type: "REMOVE_BOOK", id: book.id})}/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 ## Preview
-![Reading List App](./public/Capture.PNG)
+![Reading List App](./public/Capture2.PNG)
 
 ## Technologies used
 Built with React Hooks, Context API, CSS
